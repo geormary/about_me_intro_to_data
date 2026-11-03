@@ -1,0 +1,35 @@
+/* Loads the two fonts (keep this line at the very top) */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Lora&display=swap");
+
+/* The whole page: background color, text color, font, and centering */
+body {
+  background-color: #f7efe1;   /* cream */
+  color: #3d2417;              /* dark brown */
+  font-family: "Lora";
+  font-size: 18px;
+  text-align: center;          /* centers the title and image */
+  max-width: 650px;            /* keeps the page from stretching too wide */
+  margin: 0 auto;              /* "auto" on the sides centers the whole page */
+ 
+}
+
+/* The title */
+h1 {
+  font-family: "Playfair Display";
+  font-size: 48px;
+  color: #9b3a2c;              /* reddish brown */
+}
+
+div {
+  text-align: left;
+}
+
+ol {
+  background-color: #efe2cb;
+  padding: 20px 20px 20px 45px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
