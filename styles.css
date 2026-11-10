@@ -3,16 +3,22 @@
 
 /* The whole page: background color, text color, font, and centering */
 body {
-  background-color: #f7efe1;   /* cream */
   color: #3d2417;              /* dark brown */
   font-family: "Lora";
   font-size: 18px;
   text-align: center;          /* centers the title and image */
   max-width: 650px;            /* keeps the page from stretching too wide */
-  margin: 0 auto;              /* "auto" on the sides centers the whole page */
- 
+  margin: 0 auto;             
+ background-image:url(dark-paths.webp)
 }
-
+.wood{
+  background-image: url(purty_wood.webp);
+  max-width: 100%;
+   margin: 0 auto; 
+}
+img{
+  max-width: 100%;
+}
 /* The title */
 h1 {
   font-family: "Playfair Display";
